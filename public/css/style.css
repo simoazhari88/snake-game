@@ -1,0 +1,41 @@
+
+    body
+    {
+      background: url('../image/background.jpg') no-repeat center center fixed ;
+      background-size: cover;
+      -webkit-background-size: cover; 
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      overflow-x: hidden;
+    }
+
+    .game__score{
+      font-size: 40px;
+      padding-top: 15%;
+    }
+
+    .snake__game {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .points {
+      border: 10px solid #578A34;
+      border-radius: 10px;
+      padding: 50px;
+      background-color: #99CC33;
+    }
+
+    .gameover{
+      position: absolute;
+      top: 25%;
+      padding: 15px;
+      width: 100%;
+      display: none;
+      border-radius: 10px;
+      text-align: center;
+      background-color: #99CC33;
+      font-size: 60px;
+      font-style: italic;
+    }
+
